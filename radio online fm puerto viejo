@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puerto Viejo FM 91.5</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 150px;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .player {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .news-section {
+      padding: 20px;
+    }
+    .news-section h2 {
+      color: #004080;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Puerto Viejo FM 91.5">
+    <h1>Puerto Viejo FM 91.5</h1>
+    <p>Puerta de Corral Quemado - Belén, Catamarca</p>
+  </header>
+
+  <div class="player">
+    <h2>🎧 Escuchanos en Vivo</h2>
+    <audio controls>
+      <source src="https://tu-enlace-de-streaming.com/stream.mp3" type="audio/mpeg">
+      Tu navegador no admite el reproductor de audio.
+    </audio>
+  </div>
+
+  <section class="news-section">
+    <h2>🗞️ Noticias del Día</h2>
+    <div id="news-container">
+      <ul>
+        <li><strong>25/07:</strong> Inauguración de evento cultural en Belén.</li>
+        <li><strong>24/07:</strong> Entrevista con músicos locales en Puerto Viejo FM.</li>
+        <li><strong>23/07:</strong> Lanzamiento de nuevas secciones en la radio.</li>
+      </ul>
+      <!-- Este bloque puede actualizarse con JavaScript o integrarse con una base de datos -->
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Puerto Viejo FM 91.5 | Diseño por Rodolfo & Copilot
+  </footer>
+
+</body>
+</html>
